@@ -56,12 +56,13 @@ body {
     overflow: auto;
 }
 
-.content {
+.top-navigation .content {
     width: 46rem;
     padding: 0 0.938rem:
     margin: 0 auto;
     min-width: 37.5rem;
 }
+
 
 .introduction h1 {
     margin-top: 17.5rem;
@@ -104,18 +105,18 @@ button {
 .cases {
     background-color: #fff;
     padding-bottom: 9rem;
+    height: 17.5rem;
 }
 
 .cases .content {
     margin-top: 7.875rem;
-    margin-left: auto;
-    margin-right: auto;
     color: #1d1e21;
     text-align: center;
 }
 
 .cases .devices > li {
-    width: 31%;
+    width: 32%;
+    vertical-align: top;
     display: inline-block;
     height: 4em;
 }
@@ -124,40 +125,43 @@ button {
     font-size: 2.75rem;
     margin: 1.625rem 0 3.125rem;
     font-weight: 300;
-    text-align: center;
+
 }
 
 .cases .devices h3 {
-    font-weight: 400;
+    font-weight: 300;
     font-size: 1.563rem;
     margin: 2.5rem 0px 1.875rem;
 }
 
 
 .social .content {
+    text-align: center;
+    width:46rem;
+    min-width: 37.5;
     margin: 0 auto;
-    padding-bottom: 9.375rem;
+    padding-bottom: 9rem;
 }
 
-.content h5 {
-    margin-left: 20rem;
+.social .content h5 {
     margin-top: 1.5rem;
     margin-bottom: 1rem;
     font-size: 1.2rem;
     font-weight: 300;
 }
 
-.icons li {
-    display: inline-block;
-    width: 10%;
+.social .content ul {
+    text-align: center;
 }
 
-.icons {
-    margin-left: 16rem;
+
+.content .icons li {
+    display: inline-block;
+    width: 33%;
 }
+
 
 .copy {
-    margin-left: 17.5rem;
     font-weight: 300;
     color: #838994;
 }
@@ -167,7 +171,7 @@ button {
     width: 2.5rem;
     height: 2.5rem;
     border: 1px solid #eaebec;
-    text-align: center;
+    margin: 5px;
 }
 
 .social .fa-twitter {

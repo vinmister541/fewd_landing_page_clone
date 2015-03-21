@@ -1,4 +1,9 @@
 
+
+.top-navigation {
+    background-color: 
+}
+
 .top-navigation .links {
     float: right;
     font-family: 'Roboto', sans-serif;
@@ -103,4 +108,12 @@ background-color: #fff;
 overflow: auto;
 padding-bottom: 9.375rem;
 text-align: center;
+}
+
+.social .content ul {
+    padding: 0rem;
+}
+
+.devices {
+    padding: 0;
 }
